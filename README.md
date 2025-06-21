@@ -74,3 +74,21 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - A **Booking** belongs to one **Property** and one **User**.  
 - A **Review** is linked to a **Booking**.  
 - A **Payment** is associated with a **Booking**.
+
+## Feature Breakdown
+
+- **User Management:**  
+  Allows users to register, log in, and manage their profiles. It ensures secure access and personalized experiences.
+
+- **Property Management:**  
+  Enables users to create, update, and delete property listings. This feature allows property owners to showcase their spaces to potential guests.
+
+- **Booking System:**  
+  Lets users search for available properties and make bookings for specific dates. It manages booking status and availability to avoid conflicts.
+
+- **Reviews and Ratings:**  
+  Provides a way for guests to leave feedback after their stay. This helps maintain quality and trust within the platform.
+
+- **Payment Processing:**  
+  Handles secure payment transactions for bookings. It ensures that financial data is protected and payments are accurately recorded.
+
