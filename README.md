@@ -23,3 +23,19 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Docker**: Containerization tool for consistent environments.
 - **CI/CD Pipelines**: Automate testing and deployment.
 
+## Team Roles
+
+- **Backend Developer:**  
+  Builds the parts of the app that work behind the scenes (like the engine of a car).
+
+- **Database Administrator:**  
+  Takes care of where all the app’s data is stored and keeps it organized.
+
+- **DevOps Engineer:**  
+  Makes sure the app can be tested and updated automatically (like a robot helper).
+
+- **Security Specialist:**  
+  Protects the app and its data from bad guys.
+
+- **Project Manager:**  
+  Helps everyone work together and finishes tasks on time.
