@@ -13,16 +13,6 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Review System**: Allow users to leave reviews and ratings for properties.
 - **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
 
-##  Technology Stack
-- **Django**: High-level Python web framework for backend development.
-- **Django REST Framework**: Used to build RESTful APIs.
-- **PostgreSQL**: Relational database for data storage.
-- **GraphQL**: Flexible query language for API interaction.
-- **Celery**: Handles asynchronous tasks like notifications.
-- **Redis**: For caching and session management.
-- **Docker**: Containerization tool for consistent environments.
-- **CI/CD Pipelines**: Automate testing and deployment.
-
 ## Team Roles
 
 - **Backend Developer:**  
