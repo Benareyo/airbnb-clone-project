@@ -48,3 +48,29 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Docker:** A tool to create lightweight containers for running the application in any environment.
 - **GitHub Actions:** A platform to automate testing and deployment with CI/CD pipelines.
 - **JWT (JSON Web Tokens):** Used for securely handling user authentication.
+
+## Database Design
+
+### Key Entities and Important Fields:
+
+- **Users**  
+  Fields: id, username, email, password, role
+
+- **Properties**  
+  Fields: id, owner_id (User), title, description, location, price
+
+- **Bookings**  
+  Fields: id, property_id, user_id, start_date, end_date, status
+
+- **Reviews**  
+  Fields: id, booking_id, rating, comment, created_at
+
+- **Payments**  
+  Fields: id, booking_id, amount, payment_method, payment_status
+
+### Relationships:
+
+- A **User** can own multiple **Properties**.  
+- A **Booking** belongs to one **Property** and one **User**.  
+- A **Review** is linked to a **Booking**.  
+- A **Payment** is associated with a **Booking**.
