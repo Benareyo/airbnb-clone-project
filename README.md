@@ -92,3 +92,18 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Payment Processing:**  
   Handles secure payment transactions for bookings. It ensures that financial data is protected and payments are accurately recorded.
 
+## API Security
+
+- **Authentication:**  
+  We will use JSON Web Tokens (JWT) to verify the identity of users before they can access protected resources. This ensures only legitimate users can use the APIs.
+
+- **Authorization:**  
+  Role-based access control will restrict users from performing actions they are not allowed to do (e.g., only property owners can edit their listings).
+
+- **Rate Limiting:**  
+  To prevent abuse and protect the API from too many requests, rate limiting will be implemented, which limits the number of requests a user or client can make in a certain time frame.
+
+- **Data Encryption:**  
+  Sensitive information like passwords and payment details will be encrypted both during transmission (using HTTPS) and when stored to protect user privacy.
+
+Security is crucial to protect users’ personal data, prevent unauthorized access, and secure financial transactions, building trust in the platform.
