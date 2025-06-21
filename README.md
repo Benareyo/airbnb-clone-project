@@ -39,3 +39,12 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 - **Project Manager:**  
   Helps everyone work together and finishes tasks on time.
+
+## Technology Stack
+
+- **Django:** A powerful Python web framework used to build the backend APIs for the project.
+- **MySQL:** A relational database system used to store all the data securely.
+- **GraphQL:** A query language for APIs that allows clients to request exactly the data they need.
+- **Docker:** A tool to create lightweight containers for running the application in any environment.
+- **GitHub Actions:** A platform to automate testing and deployment with CI/CD pipelines.
+- **JWT (JSON Web Tokens):** Used for securely handling user authentication.
